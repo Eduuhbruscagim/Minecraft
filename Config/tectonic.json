@@ -1,0 +1,57 @@
+{
+  "biomes": {
+    "temperature_multiplier": 1.15,
+    "temperature_offset": -0.08,
+    "temperature_scale": 0.42,
+    "vegetation_multiplier": 1.05,
+    "vegetation_offset": 0.0,
+    "vegetation_scale": 0.38
+  },
+  "caves": {
+    "carvers_enabled": true,
+    "cheese_additive": 0.3,
+    "cheese_enabled": true,
+    "depth_cutoff_size": 0.1,
+    "depth_cutoff_start": 0.1,
+    "noodle_additive": -0.05,
+    "noodle_enabled": true,
+    "spaghetti_enabled": true
+  },
+  "continents": {
+    "continents_scale": 0.24,
+    "erosion_scale": 0.27,
+    "flat_terrain_skew": 0.22,
+    "jungle_pillars": true,
+    "ocean_offset": -0.25,
+    "ridge_scale": 0.32,
+    "river_ice": false,
+    "river_lanterns": true,
+    "rolling_hills": true,
+    "underground_rivers": true
+  },
+  "general": {
+    "mod_enabled": true,
+    "snow_start_offset": 250
+  },
+  "global_terrain": {
+    "elevation_boost": 0.3,
+    "lava_tunnels": true,
+    "max_y": 640,
+    "min_y": -64,
+    "ultrasmooth": true,
+    "vertical_scale": 1.75
+  },
+  "islands": {
+    "enabled": true,
+    "noise_multiplier": 1.0,
+    "noise_offset": 0.0,
+    "noise_scale": 0.12
+  },
+  "minor_version": 1,
+  "oceans": {
+    "deep_ocean_depth": -0.45,
+    "monument_offset": -20,
+    "ocean_depth": -0.25,
+    "remove_frozen_ocean_ice": false
+  }
+}

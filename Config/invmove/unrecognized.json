@@ -1,0 +1,14 @@
+{
+  "allowMovement": {
+    "xaero.map.gui.GuiMap": true,
+    "journeymap.client.ui.fullscreen.Fullscreen": true,
+    "net.minecraft.class_433": true,
+    "journeymap.client.ui.fullscreen.menu.FullScreenPopupMenu": true,
+    "com.moulberry.axiom.screen.AxiomIntroductionScreen": true,
+    "com.moulberry.axiom.screen.EditMarkerScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true
+  },
+  "hideBackground": {
+    "com.moulberry.axiom.screen.EditMarkerScreen": true
+  }
+}
