@@ -29,22 +29,8 @@
       "needCorrectTool": null,
       "searchRadius": null,
       "permissionRestricted": null,
-      "decreaseDurability": null
-    }
-  },
-  {
-    "name": "Trees",
-    "blocks": ["#minecraft:logs"],
-    "tools": ["#minecraft:axes", "minecraft:air"],
-    "override": {
-      "cooldown": null,
-      "mustSneak": null,
-      "delay": null,
-      "maxChain": null,
-      "needCorrectTool": null,
-      "searchRadius": null,
-      "permissionRestricted": null,
-      "decreaseDurability": null
+      "decreaseDurability": null,
+      "miningSpeedModifier": null
     }
   },
   {
@@ -59,7 +45,24 @@
       "needCorrectTool": null,
       "searchRadius": null,
       "permissionRestricted": null,
-      "decreaseDurability": null
+      "decreaseDurability": null,
+      "miningSpeedModifier": null
+    }
+  },
+  {
+    "name": "Wood",
+    "blocks": ["#minecraft:logs"],
+    "tools": [],
+    "override": {
+      "cooldown": null,
+      "mustSneak": null,
+      "delay": null,
+      "maxChain": null,
+      "needCorrectTool": false,
+      "searchRadius": null,
+      "permissionRestricted": null,
+      "decreaseDurability": null,
+      "miningSpeedModifier": null
     }
   }
 ]

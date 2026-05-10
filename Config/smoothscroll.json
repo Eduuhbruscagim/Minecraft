@@ -6,7 +6,7 @@
     "To access config ingame, use the mod modmenu."
   ],
   "Hotbar": {
-    "Smoothness": 40.0,
+    "Smoothness": 50.0,
     "Rollover": true,
     "Static Selector": false
   },

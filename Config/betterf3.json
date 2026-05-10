@@ -91,22 +91,21 @@
 			"enabled": true
 		}, 
 		{
-			"name": "location",
-			"name_color": 43520,
-			"value_color": 5636095,
+			"name": "entity",
+			"name_color": 16733525,
+			"value_color": 16777045,
+			"total_entities_color": 16755200,
 			"lines": {
-				"light": true,
-				"biome": true,
-				"rotation": true,
-				"facing": true,
-				"slime_chunk": true,
-				"local_difficulty": true,
-				"day_ticks": true,
-				"days_played": true,
-				"dimension": true,
-				"highest_block": true,
-				"highest_block_server": true,
-				"light_server": true
+				"entities": true,
+				"water_creature": true,
+				"underground_water_creature": true,
+				"ambient": true,
+				"particles": true,
+				"axolotls": true,
+				"creature": true,
+				"water_ambient": true,
+				"monster": true,
+				"misc": true
 			},
 			"enabled": true
 		}, 
@@ -131,21 +130,11 @@
 			"enabled": true
 		}, 
 		{
-			"name": "entity",
-			"name_color": 16733525,
-			"value_color": 16777045,
-			"total_entities_color": 16755200,
+			"name": "miscleft",
+			"name_color": 16645526,
+			"value_color": 5636095,
 			"lines": {
-				"entities": true,
-				"water_creature": true,
-				"underground_water_creature": true,
-				"ambient": true,
-				"particles": true,
-				"axolotls": true,
-				"creature": true,
-				"water_ambient": true,
-				"monster": true,
-				"misc": true
+				"misc_left": true
 			},
 			"enabled": true
 		}

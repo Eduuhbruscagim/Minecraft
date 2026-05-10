@@ -55,17 +55,17 @@
         NetherBrickFence: true
     },
     Vegetation: {
-        Grass: false,
-        Seagrass: false,
-        Wheat: false,
-        Potatoes: false,
-        Carrots: false,
-        Beetroots: false
+        Grass: true,
+        Seagrass: true,
+        Wheat: true,
+        Potatoes: true,
+        Carrots: true,
+        Beetroots: true
     },
     Misc: {
         Mace: true,
         Trident: true,
-        Chest: false,
+        Chest: true,
         RandomBookshelves: true,
         Rails: true,
         RailCorner: "curved",

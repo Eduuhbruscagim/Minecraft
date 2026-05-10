@@ -1,9 +1,9 @@
 {
   "configVersion": 3,
-  "blurContainers": false,
-  "blurBooks": false,
-  "blurSigns": false,
-  "blurCommandBlocks": false,
+  "blurContainers": true,
+  "blurBooks": true,
+  "blurSigns": true,
+  "blurCommandBlocks": true,
   "blurTitleScreen": false,
   "darkenTitleScreen": false,
   "showScreenID": false,
@@ -22,8 +22,8 @@
   "gradientEndAlpha": 75,
   "gradientRotation": 0,
   "rainbowMode": false,
-  "fadeTimeMillis": 352,
+  "fadeTimeMillis": 300,
   "fadeOutTimeMillis": 300,
-  "blurAnimationCurve": "ELASTIC",
-  "backgroundAnimationCurve": "ELASTIC"
+  "blurAnimationCurve": "FLAT",
+  "backgroundAnimationCurve": "FLAT"
 }

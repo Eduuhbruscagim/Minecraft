@@ -11,12 +11,12 @@
         },
         "enable_profiles": {
             "value": false
+        },
+        "item_scrolling": {
+            "value": false
         }
     },
     "ModSettings": {
-        "highlight_foused_items_foreground": false,
-        "enable_updates_check": false,
-        "highlight_clicking_slot": false,
         "first_run": false,
         "enable_profiles": {
             "value": false
@@ -40,11 +40,7 @@
         },
         "enable_profiles_ui": {
             "value": false
-        },
-        "show_fast_rename_checkbox": {
-            "value": false
-        },
-        "continuous_crafting_saved_value": false
+        }
     },
     "LockedSlotsSettings": {
         "enable_lock_slots": {

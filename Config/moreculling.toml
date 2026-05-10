@@ -8,16 +8,19 @@ useBlockStateCulling = true
 useCustomItemFrameRenderer = true
 itemFrameMapCulling = true
 useItemFrameLOD = true
-itemFrameLODRange = 11
+itemFrameLODRange = 6
 useItemFrame3FaceCulling = true
-itemFrame3FaceCullingRange = 2.0
+itemFrame3FaceCullingRange = 4.0
 paintingCulling = true
-leavesCullingMode = "CHECK"
-leavesCullingAmount = 2
+leavesCullingMode = "FAST"
+leavesCullingAmount = 3
 includeMangroveRoots = true
 endGatewayCulling = true
 beaconBeamCulling = true
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]
+easymagic = true
+easyanvils = true
+visualworkbench = true
 minecraft = true

@@ -2,13 +2,14 @@
   "cooldown": 20,
   "mustSneak": true,
   "delay": 0,
-  "maxChain": 100,
+  "maxChain": 200,
   "needCorrectTool": true,
-  "searchRadius": 1,
+  "searchRadius": 2,
   "permissionRestricted": false,
   "mergeItemDrops": true,
   "autoUpdate": false,
   "decreaseDurability": true,
+  "miningSpeedModifier": 0.0,
   "client": {
     "allow": true,
     "require": false,
@@ -22,7 +23,8 @@
       "needCorrectTool": null,
       "searchRadius": null,
       "permissionRestricted": null,
-      "decreaseDurability": null
+      "decreaseDurability": null,
+      "miningSpeedModifier": null
     }
   }
 }

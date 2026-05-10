@@ -11,7 +11,9 @@
   "entityRenderModeOverrides": {},
   "entityPhysicsModPatchOverrides": {},
   "entityVanillaHologramOverrides": {},
-  "modelsNamesDisabled": [],
+  "modelsNamesDisabled": [
+    "chest"
+  ],
   "allowEBEModConfigModify": true,
   "animationLODDistance": 20,
   "retainDetailOnLowFps": true,
@@ -30,5 +32,7 @@
   "allowOptifineFallbackProperties": true,
   "showReloadErrorToast": true,
   "armorCopiesAnimationsHack": false,
-  "exportRotations": false
+  "exportRotations": false,
+  "asmMaths": true,
+  "logASM": false
 }

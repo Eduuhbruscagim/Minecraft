@@ -21,9 +21,9 @@ defaultGlobalExecutorParallelismExpression = "default"
 # References:
 # - https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#setPriority(int)
 # 
-threadPoolPriority = "default"
+threadPoolPriority = 3
 # (Default: 4) Configures the parallelism of global executor
-globalExecutorParallelism = "default"
+globalExecutorParallelism = 2
 
 [fixes]
 	# (Default: true)  
@@ -59,16 +59,9 @@ globalExecutorParallelism = "default"
 		maxViewDistance = "default"
 
 [noTickViewDistance]
-	# (Default: 8) No-tick view distance max concurrent chunk loads 
+	# (Default: 4) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
-	# (Default: true) Whether to attempt to smooth out chunk sending rate
-	# 
-	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
-	# which can cause frame time stability if the server also delivers chunks in a bursty way
-	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
-	# 
-	smoothChunkSendingRate = "default"
+	maxConcurrentChunkLoads = 4
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
@@ -78,6 +71,13 @@ globalExecutorParallelism = "default"
 	# Requires Fabric API (currently available)
 	# 
 	enableExtRenderDistanceProtocol = "default"
+	# (Default: true) Whether to attempt to smooth out chunk sending rate
+	# 
+	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
+	# which can cause frame time stability if the server also delivers chunks in a bursty way
+	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
+	# 
+	smoothChunkSendingRate = "default"
 
 [ioSystem]
 	# (Default: false) EXPERIMENTAL FEATURE
@@ -90,7 +90,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@19.0.1 (*) (defined in c2me) 
-	gcFreeChunkSerializer = "default"
+	gcFreeChunkSerializer = false
 	# (Default: true) Whether to use the optimized implementation of IO system
 	replaceImpl = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -146,12 +146,12 @@ globalExecutorParallelism = "default"
 		#  
 		# Please preserve quotes so this config don't break
 		# 
-		mode = "default"
+		mode = "ENHANCED"
 
 [chunkSystem]
 	# (Default: true) Whether to enable async serialization
 	# 
-	asyncSerialization = "default"
+	asyncSerialization = true
 	# (Default: false) Whether to use legacy scheduling for neighbor chunks
 	# 
 	# Enabling this restores the behavior of always loading in neighbor chunks when a chunk is loaded.
@@ -176,7 +176,7 @@ globalExecutorParallelism = "default"
 	# This option will attempt to aggressively unload unused chunks.
 	# Only applies when useLegacyScheduling is disabled.
 	# 
-	lowMemoryMode = "default"
+	lowMemoryMode = true
 	# (Default: true) Whether to synchronize the management of player tickets
 	# 
 	# In vanilla Minecraft, player tickets are not always removed immediately when players leave an area.

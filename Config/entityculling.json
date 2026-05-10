@@ -1,6 +1,6 @@
 {
   "configVersion": 7,
-  "renderNametagsThroughWalls": true,
+  "renderNametagsThroughWalls": false,
   "blockEntityWhitelist": [
     "create:rope_pulley",
     "botania:flame_ring",
@@ -10,16 +10,12 @@
     "botania:magic_missile",
     "botania:falling_star"
   ],
-  "entityWhitelist": [
-    "botania:mana_burst",
-    "drg_flares:drg_flares",
-    "quark:soul_bead"
-  ],
-  "tracingDistance": 128,
+  "entityWhitelist": ["botania:mana_burst", "drg_flares:drg_flares", "quark:soul_bead"],
+  "tracingDistance": 48,
   "debugMode": false,
-  "sleepDelay": 10,
-  "hitboxLimit": 50,
-  "captureRate": 5,
+  "sleepDelay": 15,
+  "hitboxLimit": 30,
+  "captureRate": 10,
   "tickCulling": true,
   "tickCullingWhitelist": [
     "minecraft:block_display",

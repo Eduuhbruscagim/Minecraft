@@ -1,14 +1,15 @@
 {
   "allowMovement": {
-    "xaero.map.gui.GuiMap": true,
-    "journeymap.client.ui.fullscreen.Fullscreen": true,
     "net.minecraft.class_433": true,
-    "journeymap.client.ui.fullscreen.menu.FullScreenPopupMenu": true,
+    "net.minecraft.class_429": true,
+    "xaero.map.gui.GuiMap": true,
     "com.moulberry.axiom.screen.AxiomIntroductionScreen": true,
-    "com.moulberry.axiom.screen.EditMarkerScreen": true,
-    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true
+    "com.moulberry.lattice.LatticeConfigScreen": true,
+    "com.moulberry.axiom.screen.CreativeColourScreen": true,
+    "com.moulberry.axiom.screen.CreativeGradientScreen": true
   },
   "hideBackground": {
-    "com.moulberry.axiom.screen.EditMarkerScreen": true
+    "com.moulberry.axiom.screen.CreativeColourScreen": true,
+    "com.moulberry.axiom.screen.CreativeGradientScreen": true
   }
 }

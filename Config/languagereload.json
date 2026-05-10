@@ -3,11 +3,11 @@
   "multilingualItemSearch": true,
   "removableDefaultLanguage": false,
   "fallbacks": [
-    "en_us"
-  ],
-  "previousFallbacks": [
     "pt_br"
   ],
-  "language": "pt_br",
-  "previousLanguage": "en_us"
+  "previousFallbacks": [
+    "en_us"
+  ],
+  "language": "en_us",
+  "previousLanguage": "pt_br"
 }
