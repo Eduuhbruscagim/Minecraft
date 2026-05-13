@@ -1,0 +1,39 @@
+{
+  "vanilla_refresh:player/store_deaths_initial": {
+    "criteria": {
+      "s": "2026-05-11 11:59:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-05-11 11:59:50 -0300"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/end_teleport": {
+    "criteria": {
+      "s3": "2026-05-11 11:59:50 -0300"
+    },
+    "done": false
+  },
+  "vanilla_refresh:player/tick": {
+    "criteria": {
+      "s": "2026-05-11 11:59:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_birch_forest": "2026-05-11 11:59:50 -0300"
+    },
+    "done": false
+  },
+  "vanilla_refresh:biome/birch_forest": {
+    "criteria": {
+      "requirement": "2026-05-11 12:00:01 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
+}
