@@ -121,7 +121,7 @@
     "tinker": false,
     "infiniteReach": false,
     "infiniteReachLimit": -1,
-    "fastPlace": true,
+    "fastPlace": false,
     "angelPlacement": false,
     "noClip": false,
     "phantom": false
@@ -155,9 +155,9 @@
     "searchQuickAdd": true
   },
   "entityManipulation": {
-    "showDisplayEntities": true,
+    "showDisplayEntities": false,
     "displayEntityRange": 8,
-    "showMarkerEntities": true,
+    "showMarkerEntities": false,
     "markerEntityRange": 24,
     "swapLeftRightClick": false
   },
@@ -172,23 +172,18 @@
     "defaultTags": "small,medium,large,massive,organic,structure,terrain,interior,house,tower,bridge,castle,statue,temple,monument,barn,stable,windmill,store,watermill,ship,airship,balloon,palace,watchtower,mansion,grave,marketplace,mine,obelisk,warehouse,silo,shipwreck,mausoleum,cemetery,bunker,airplane,helicopter,car,truck,vehicle,blacksmith,crypt,factory,mountain,cliff,rock,iceberg,spike,stone,wood,brick,natural,sand,metal,winter,spring,summer,autumn,tree,bush,mushroom,spruce,oak,birch,coniferous,deciduous,acacia,mangrove,cherryblossom,darkoak,jungle,baobab,azalea,cypress,coral,sapling,grass,seagrass,bamboo,flowers,animal,creature,dead,lamp,streetlight,brazier,bed,bookshelf,closet,table,chair,fireplace,carpet,fountain,clock,banner,flag,bell,modern,medieval,steampunk,gothic,oriental,victorian,fantasy,sci-fi,elven,dwarven,futuristic,retro,classic,rustic,baroque,rococo,industrial,artnouveau,artdeco,cyberpunk,space,arabic,indian,egyptian,greek,roman,norse,mesoamerican,japanese,western,spanish,tudor,spooky,pirate,dungeons,rubble,crates,redstone,wall,window,roof,stairs,pillar,arch,stairs,chimney,well"
   },
   "internal": {
-    "nextUpdateNag": 1778587508664,
+    "nextUpdateNag": 1782520152561,
     "shownIntroduction": true,
-    "showOpenConfigTip": false,
+    "showOpenConfigTip": true,
     "showOpenContextMenuTip": false,
     "showOpenEditorTip": false,
     "completedTutorials": [
-      "introduction",
-      "slope_tool",
-      "sculpt_draw_tool",
-      "selection",
-      "magic_select_tool"
+      "introduction"
     ],
     "openEditorWindowTypes": [
       "tools",
       "tool_options",
       "palette",
-      "inventory",
       "active_block",
       "history",
       "world_properties",

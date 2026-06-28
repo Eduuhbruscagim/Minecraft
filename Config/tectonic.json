@@ -1,57 +1,60 @@
 {
+  "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
   "biomes": {
     "temperature_multiplier": 1.0,
     "temperature_offset": 0.0,
-    "temperature_scale": 0.22,
+    "temperature_scale": 0.15,
     "vegetation_multiplier": 1.0,
-    "vegetation_offset": 0.0,
-    "vegetation_scale": 0.22
+    "vegetation_offset": -0.1,
+    "vegetation_scale": 0.15
   },
   "caves": {
     "carvers_enabled": true,
-    "cheese_additive": 0.2,
+    "cheese_additive": 0.32,
     "cheese_enabled": true,
-    "depth_cutoff_size": 0.06,
-    "depth_cutoff_start": 0.04,
-    "noodle_additive": -0.02,
+    "depth_cutoff_size": 0.15,
+    "depth_cutoff_start": 0.05,
+    "noodle_additive": -0.05,
     "noodle_enabled": true,
+    "ore_fix": true,
     "spaghetti_enabled": true
   },
   "continents": {
-    "continents_scale": 0.12,
+    "continents_scale": 0.11,
     "erosion_scale": 0.25,
-    "flat_terrain_skew": 0.2,
-    "jungle_pillars": true,
-    "ocean_offset": -0.65,
-    "ridge_scale": 0.28,
-    "river_ice": true,
+    "flat_terrain_skew": 0.25,
+    "jungle_pillars": false,
+    "ocean_offset": -0.6,
+    "ridge_scale": 0.2,
+    "river_ice": false,
     "river_lanterns": true,
     "rolling_hills": true,
     "underground_rivers": true
   },
+  "experimental": {},
   "general": {
     "mod_enabled": true,
-    "snow_start_offset": 100
+    "snow_start_offset": 140
   },
   "global_terrain": {
-    "elevation_boost": 0.95,
+    "elevation_boost": 0.0,
     "lava_tunnels": true,
-    "max_y": 448,
+    "max_y": 320,
     "min_y": -64,
     "ultrasmooth": true,
-    "vertical_scale": 1.5
+    "vertical_scale": 1.35
   },
   "islands": {
     "enabled": true,
     "noise_multiplier": 1.0,
     "noise_offset": 0.0,
-    "noise_scale": 0.1
+    "noise_scale": 0.11
   },
   "minor_version": 1,
   "oceans": {
-    "deep_ocean_depth": -0.65,
-    "monument_offset": -50,
-    "ocean_depth": -0.45,
+    "deep_ocean_depth": -0.45,
+    "monument_offset": -25,
+    "ocean_depth": -0.22,
     "remove_frozen_ocean_ice": false
   }
 }

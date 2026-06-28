@@ -10,7 +10,7 @@
 	"supportedBridgeAxesWhenCrouched": "FALLBACK",
 	"delayPostBridging": 4,
 	"showCrosshair": true,
-	"showOutline": false,
+	"showOutline": true,
 	"showOutlineEvenWhenNotBridging": false,
 	"nonBridgeRespectsCrouchRules": true,
 	"outlineColour": 1711276032,

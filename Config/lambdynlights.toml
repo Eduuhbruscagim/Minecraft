@@ -23,7 +23,7 @@ chunk_rebuild_scheduler = "culling"
 	# Enables dynamic lighting of the Warden's sonic boom attack particles.
 	sonic_boom = true
 	# Creeper lighting mode. May be off, simple or fancy.
-	creeper = "simple"
+	creeper = "fancy"
 	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
 	guardian_laser = true
 
@@ -65,7 +65,7 @@ chunk_rebuild_scheduler = "culling"
 				tnt = false
 				parrot = false
 				creeper = true
-				lightning_bolt = false
+				lightning_bolt = true
 				tadpole = false
 				ravager = false
 				evoker_fangs = false
@@ -80,8 +80,8 @@ chunk_rebuild_scheduler = "culling"
 				piglin = false
 				end_crystal = false
 				endermite = false
-				ender_pearl = false
 				zombie = false
+				ender_pearl = false
 				item_display = false
 				breeze_wind_charge = false
 				guardian = false
@@ -185,6 +185,32 @@ chunk_rebuild_scheduler = "culling"
 				interaction = false
 				wither = false
 				spruce_chest_boat = false
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.variantsandventures]
+				murk = true
+				gelid = true
+				verdant = true
+				thicket = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				skull_bolt = true
+				sorcerer = true
+				alchemist = true
+				surrendered = true
+				basher = true
+				necromancer = true
+				firecaller = true
+				invoker = true
+				marauder = true
+				invoker_fangs = true
+				flying_magma = true
+				hatchet = true
+				archivist = true
+				provoker = true
+				inquisitor = true
 
 [debug]
 	active_dynamic_lighting_cells = false

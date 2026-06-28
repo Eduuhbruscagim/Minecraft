@@ -119,6 +119,7 @@
       "coordinates": false,
       "registry_name": "OFF",
       "block_properties": false,
+      "loot_table": false,
       "mod_name": "ON"
     },
     "balm": {

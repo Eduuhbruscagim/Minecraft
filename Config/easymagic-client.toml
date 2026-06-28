@@ -1,12 +1,3 @@
-#Keep the vanilla book inside the enchantment screen instead of rendering a reroll button.
-#The button is simply not visible, rerolling still works by clicking the book. Disabling the reroll feature itself is possible in the server config.
-#Default Value: false
-keep_enchantment_screen_book = false
-#Offset on y-axis for chiseled bookshelf book tooltips from original position.
-#Default Value: 0
-# Default: 0
-# Range: > -2147483648
-chiseled_bookshelf_tooltip_offset_y = 0
 #Render inventory contents of an enchanting table.
 #Default Value: FLOATING
 #Allowed Values: NONE, FLAT, FLOATING
@@ -23,3 +14,12 @@ chiseled_bookshelf_tooltip = "ENABLED"
 # Default: 0
 # Range: > -2147483648
 chiseled_bookshelf_tooltip_offset_x = 0
+#Keep the vanilla book inside the enchantment screen instead of rendering a reroll button.
+#The button is simply not visible, rerolling still works by clicking the book. Disabling the reroll feature itself is possible in the server config.
+#Default Value: false
+keep_enchantment_screen_book = false
+#Offset on y-axis for chiseled bookshelf book tooltips from original position.
+#Default Value: 0
+# Default: 0
+# Range: > -2147483648
+chiseled_bookshelf_tooltip_offset_y = 0

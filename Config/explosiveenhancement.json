@@ -29,5 +29,6 @@
   "emissive_explosion": true,
   "emissive_water_explosion": true,
   "always_show": false,
+  "strict_explosion_detection": false,
   "debug_logs": false
 }

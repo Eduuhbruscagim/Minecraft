@@ -4,8 +4,8 @@
   "blurBooks": true,
   "blurSigns": true,
   "blurCommandBlocks": true,
-  "blurTitleScreen": false,
-  "darkenTitleScreen": false,
+  "blurTitleScreen": true,
+  "darkenTitleScreen": true,
   "showScreenID": false,
   "forceEnabledScreens": [
     "dev.emi.emi.screen.RecipeScreen",

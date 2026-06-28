@@ -1,4 +1,7 @@
 {
+  "test_2_3_0": true,
+  "test_2_2_0": true,
+  "test_2_1_0": true,
   "test_1_2_2": true,
   "main": {
     "mod_enabled": true,
@@ -57,5 +60,8 @@
       "mode": "disabled",
       "items": ""
     }
+  },
+  "cache": {
+    "invalidate_mode": "manual_invalidate"
   }
 }

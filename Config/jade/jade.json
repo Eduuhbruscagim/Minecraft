@@ -120,6 +120,7 @@
       "coordinates": false,
       "registry_name": "OFF",
       "block_properties": false,
+      "loot_table": false,
       "mod_name": "ON"
     },
     "balm": {
@@ -133,7 +134,7 @@
     "accessibilityModMemory": false,
     "themesHash": -825076755,
     "usersHash": [
-      32913081
+      -454377318
     ]
   }
 }

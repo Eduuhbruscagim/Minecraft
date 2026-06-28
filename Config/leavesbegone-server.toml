@@ -3,11 +3,11 @@
 # Default: 20
 # Range: > 0
 maximum_decay_ticks = 20
+#Leaves not attached to their own kind will decay.
+#Default Value: false
+ignore_other_leave_types = false
 #Minimum ticks after which leaves will start to decay.
 #Default Value: 5
 # Default: 5
 # Range: > 0
 minimum_decay_ticks = 5
-#Leaves not attached to their own kind will decay.
-#Default Value: false
-ignore_other_leave_types = false
