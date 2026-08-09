@@ -1,3 +1,0 @@
-#Render inventory contents of an anvil.
-#Default Value: true
-render_anvil_contents = true
