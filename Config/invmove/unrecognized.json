@@ -1,0 +1,12 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "xaero.map.gui.GuiMap": true,
+    "com.noxcrew.noxesium.core.fabric.config.NoxesiumSettingsScreen": true,
+    "punchy.client.tuning.MixThePacksScreen": true,
+    "punchy.client.config.PunchyConfigScreen": true
+  },
+  "hideBackground": {
+    "punchy.client.tuning.MixThePacksScreen": true
+  }
+}

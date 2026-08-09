@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "optimizationStrength": "TURBO",
+  "maxOptimizedDistance": 128.0,
+  "ignorePlayers": true,
+  "ignoreHostileMobs": true,
+  "shaderFriendlyMode": true,
+  "simplifyDistantEntityLayers": true,
+  "reduceFarEntityShadows": true,
+  "hideDistantLowPriorityNameTags": true,
+  "debugOverlay": false
+}
